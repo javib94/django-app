@@ -9,7 +9,7 @@ Parameters:
     Type: AWS::EC2::VPC::Id
     
   Cluster:
-    Description: Please provide the ECS Cluster ID that this service should run on
+    Description: ECS Cluster name 
     Type: String
 
   DesiredCount: 
